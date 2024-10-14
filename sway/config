@@ -36,8 +36,8 @@ output * bg ~/.config/sway/wallpaper.jpg fill
 # Example configuration:
 #
  exec swayidle -w \
-          timeout 600 'swaylock -f -i ~/.config/sway/wallpaper.jpg' \
-          timeout 720 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+          timeout 300 'swaylock -f -i ~/.config/sway/wallpaper.jpg' \
+          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
           before-sleep 'swaylock -f -i ~/.config/sway/wallpaper.jpg'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -227,8 +227,8 @@ gaps inner 1
 input type:touchpad tap enabled
 
 # Special keys
-bindsym XF86AudioRaiseVolume exec wpctl -l 1 set-volume @DEFAULT_AUDIO_SINK@ +5%
-bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ -5%
+bindsym XF86AudioRaiseVolume exec wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+
+bindsym XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 bindsym XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
