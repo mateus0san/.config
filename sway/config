@@ -214,8 +214,11 @@ bar {
 }
 
 # Keyboard
-input type:keyboard xkb_layout "br"
-input type:keyboard repeat_rate 20
+input type:keyboard {
+	repeat_rate 20
+	repeat_delay 300
+	xkb_layout "br"
+}
 
 # Style of the border
 default_border none
