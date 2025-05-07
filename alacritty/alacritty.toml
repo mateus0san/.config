@@ -1,0 +1,5 @@
+[font]
+normal = { family = "iosevka", style = "Regular" }
+size = 13
+[window]
+padding = { x = 7, y = 7 }
