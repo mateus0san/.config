@@ -1,0 +1,14 @@
+layout {
+  pane split_direction="vertical" size="65%" {
+    pane edit="."
+  }
+  pane split_direction="vertical" size="25%" {
+    pane command="cargo" {
+      args "run"
+      focus true
+    }
+    pane command="cargo" {
+      args "test"
+    }
+  }
+}

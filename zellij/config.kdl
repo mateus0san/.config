@@ -22,26 +22,6 @@ keybinds clear-defaults=true {
         bind "r" { NewPane "right"; SwitchToMode "normal"; }
         bind "w" { ToggleFloatingPanes; SwitchToMode "normal"; }
         bind "z" { TogglePaneFrames; SwitchToMode "normal"; }
-        bind "1" {
-            Run "cargo" "run" {
-                direction "Down"
-            }
-        }
-        bind "2" {
-            Run "cargo" "check" {
-                direction "Down"
-            }
-        }
-        bind "3" {
-            Run "cargo" "build" {
-                direction "Down"
-            }
-        }
-        bind "4" {
-            Run "cargo" "test" {
-                direction "Down"
-            }
-        }
     }
     tab {
         bind "left" { GoToPreviousTab; }
