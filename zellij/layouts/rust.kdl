@@ -1,4 +1,7 @@
 layout {
+  pane size=1 borderless=true {
+    plugin location="zellij:compact-bar"
+  }
   pane split_direction="vertical" size="65%" {
     pane edit="."
   }
@@ -10,5 +13,8 @@ layout {
     pane command="cargo" {
       args "test"
     }
+  }
+  pane size=2 borderless=true {
+    plugin location="zellij:status-bar"
   }
 }
