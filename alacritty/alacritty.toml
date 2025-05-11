@@ -1,5 +1,5 @@
 [font]
 normal = { family = "iosevka", style = "Regular" }
-size = 12
+size = 11.5
 [window]
 padding = { x = 7, y = 7 }
