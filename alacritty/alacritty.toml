@@ -1,0 +1,8 @@
+[window]
+  padding = { x = 7, y = 7 }
+[font]
+  normal = { family = "iosevka", style = "regular" }
+[colors]
+  [colors.primary]
+    background = "#161923"
+    foreground = "#aaaaaa"
