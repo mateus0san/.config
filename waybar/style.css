@@ -2,12 +2,12 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font", monospace;
-    font-size: 13px;
+    font-size: 14px;
     min-height: 0;
 }
 
 window#waybar {
-    background-color: #000000; /* Solid black background */
+    background-color: #101010; /* Solid black background */
     color: #ffffff;            /* White text */
     border-bottom: 1px solid #222222;
 }
