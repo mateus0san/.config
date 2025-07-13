@@ -25,14 +25,18 @@
      "all-outputs": true,
      "warp-on-scroll": false,
      "format": "{icon}",
+     "persistent-workspaces": {
+         "*" : 4
+    },
      "format-icons": {
          "1": "",
-         "2": "󰈹",
-         "3": "",
+         "2": "",
+         "3": "",
+         "4": "",
          "urgent": "",
          "focused": "",
          "default": ""
-     }
+     },
  },
     "idle_inhibitor": {
         "format": "{icon}",
