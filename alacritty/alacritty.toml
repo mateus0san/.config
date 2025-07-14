@@ -1,5 +1,5 @@
 [window]
-  padding = { x = 1, y = 1 }
+  padding = { x = 3, y = 1 }
 [font]
   normal = { family = "iosevka", style = "regular" }
 [colors]
