@@ -1,4 +1,4 @@
-font iosevka italic 11
+font iosevka bold 11
 
 ### Variables
 #
@@ -162,7 +162,7 @@ bindsym $mod+r mode "resize"
 
 bar {
     mode hide
-    font iosevka italic 11
+    font iosevka 11
     position top 
     pango_markup enabled
 
