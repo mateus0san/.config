@@ -12,7 +12,7 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu wmenu-run -f "iosevka bold 10" -N "101010" -S "424242"
+set $menu wmenu-run -f "iosevka bold 11" -N "101010" -S "424242"
 
 output * bg ~/Downloads/backie.jpg fill
 output eDP-1 resolution 1920x1080 position 0,0
