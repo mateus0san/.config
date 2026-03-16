@@ -17,6 +17,7 @@ set $browser firefox
 ### Output configuration
 #
 output * bg #000000 solid_color 
+output eDP-1 pos 0,0
 
 ### Idle configuration
 exec swayidle -w \
